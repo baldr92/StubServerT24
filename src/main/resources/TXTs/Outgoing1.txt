@@ -1,0 +1,33 @@
+<out2:recordCustomerServiceAllocationCredentialsResponse xmlns:io="http://www.vpbank.com/common/envelope/commonheader/1" xmlns:out2="http://www.vpbank.com/entity/vn/ba34/bd85/customeraccessentitlement/recordcustomerserviceallocationcredentials/1">
+     <io:Header>
+         <io:Common>
+             <io:ServiceVersion>1</io:ServiceVersion>
+             <io:MessageId>00fd91c8-c928-40f1-8a04-ff8c79d69f9f</io:MessageId>
+             <io:MessageTimestamp>2018-07-14T06:33:01.284+07:00</io:MessageTimestamp>
+             <io:AdditionalInformation>
+                 <io:NameValuePairs>
+                     <io:Name>mode</io:Name>
+                     <io:Value>test</io:Value>
+                 </io:NameValuePairs>
+                 <io:Other>this is a note</io:Other>
+             </io:AdditionalInformation>
+         </io:Common>
+         <io:Client>
+             <io:SourceAppID>OCB</io:SourceAppID>
+             <io:TargetAppIDs>
+                 <io:TargetAppID>ESB</io:TargetAppID>
+             </io:TargetAppIDs>
+             <io:UserDetail>
+                 <io:UserId>OCB</io:UserId>
+                 <io:UserRole>tester</io:UserRole>
+                 <io:UserPassword>GkXry4DzgMcjyVU56ujinA==</io:UserPassword>
+             </io:UserDetail>
+         </io:Client>
+     </io:Header>
+     <io:ResponseStatus>
+         <io:Status>0</io:Status>
+     </io:ResponseStatus>
+     <out2:BodyResponse>
+         <out2:Status>0</out2:Status>
+     </out2:BodyResponse>
+ </out2:recordCustomerServiceAllocationCredentialsResponse>
